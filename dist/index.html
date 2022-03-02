@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <link rel="stylesheet" href="/assets/index.96221238.css">
+</head>
+
+<body>
+    <div class="maindiv h-auto w-full flex justify-center items-center">
+        <div class="maindiv h-auto font-[url('Images/Segoe UI.tff')] w-[91.23%]  -2   mx-12">
+            <div class="header1 text-[15px] flex  -2   justify-between w-full h-14 lg:hidden">
+                <div class="div2 flex">
+                    <div class="tools flex space-x-5 self-center   h-12 w-12 items-center   justify-center">
+                        <img class="h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAARVBMVEX///8jHyAgHB0OBQgMAAWlpKQpJSaenZ309PUAAAAIAAD8/Pz5+fna2tqop6dvbW1oZmevrq4tKivFxMQYExRiYGC+vr7Dc4WrAAABB0lEQVR4nO3cS3LCMBAFQGIIIBPbhN/9jxqSyiIsTUnlydB9g1eSNV5MvdUKAAAAAAAAAAAAAAAAXtEwvscwDk3yHabSb2Loy/TRIOHUv8XRH+sHHMrSqR6U+hd1jHSE90P8lHC2/Lc0/0vzMy3WMdynxaFBwu+Jv4uh0cQHAAAAAAAAAIB59jG0ijdcT9sYTtcmK0PncumiuJRz/YD7bbf0ut4f3br+GvQt2PblrXrC3WbpUA/6sXrC/GeY/zvM/5aGmofHZiu0S//M/GoVDwAAAAAAAAAAZsjeuRerN1HL7hPy95fm76DNnzD/Lc3/0rxAJ3v+Xn0AAAAAAAAAAAAAAAD4T74AYhs1O+vt3ioAAAAASUVORK5CYII=" alt="Error">
+                    </div>
+                </div>
+                <div class="div1 flex w-full justify-between">
+                    <div class="div2 flex">
+                        <div class="tools flex space-x-5 self-center   h-12 w-12 items-center   justify-center">
+                            <img class="h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAE8ElEQVR4nO2dzY8URRiHn3aRMXzILhz0AiImIsJu9GKMIuhBRU9oNMZwIiInsv4FxhiJR72Kyt9g4gHFKHhRTFiJGlB3V4VsTNQ98CFZYC87HN6ZsJnM291T011vd/M+SV1qp6d+9avq6rc+ehYcx3Ecx3FuRxJrASWTAOPAbmA7sBXYBIwBqzufWQAuAnPADHAO+BY4C7Qj620ECWL4UWAeMTEkzQOfArtofkcthBZwEJgl3HQtzQIHgJXRalMz9gF/U7zxvWkOeD1SnWrBFuAE5Rvfm74G7o9Qv0qzF3l4xja/m64Ar5VeywqSAO+T36jryF3yNtJo25Ao6M5OGuvk7e185gRwY4DvP8xt9JAeQSKTPMacRh6c6wLKGQXe7HxHnrI+6WhrNAn5zJ8Cni2w3OeBMznK/ZiG3wlZw84CcIhyeuIIMAlcy9BwuISyK8GrpFf8V2SmWzY7gN9TdCwBL0fQEZUHgMvolf4OeZDGYj3wfYqeSzQoRE2Ab0g3f5WBrlWkN8JXBppKYR/pw07Mnt/LetKHo9rPEVroywsLxBnzsxhHfzBfQOYZteUgeu86ZKirl0l0nW8Y6hqKBH1Vc4pqTXpG0OcJ09R0bvA0eq8qcpJVFHvQ9e401BXMUfpX5rSlqAym0GfItSJB38k6YKgrC+2Z9R81G4Ym6F+R64QtrMViFH0VdYd20R1RpA3GbiX/FLIGX1UuAz8of9PqVMkG0OL7k1FVhKFpVOcsVWyAh5T8n6OqCOMXJX+rdkEVG+A+JX8mqoowppX8zdoFVWyAu5X8+agqwtA0anWqJIv0jyTqcCanRX/tN7QLqngH1CpmHpYqNsCCkr8mqoow1ir5V7ULqtgAl5T8e6KqCEPT+L92QRUb4IKS/2BUFWFo4aZWp0o2wKySPxFVRRjjSr4WnlayAbQVz2eiqghD03g2qooheRg9lBs11JXFGPpiXBW2TwfiL5qzHP0vNQytP6Q5GzJHLEWF8gj6Ft9zhro0XkTX+6ShrqE4Rf8KnaFam/IrgJ9o2KY8yBlLrVdNGurq5S10nfsNdQ1Ngj6uXiNlmy8iE+gHs85T84NZIFt5S/Sv4G/I8UArNiBDjNb7X7GTVizaEZU2dodzV5N+OPe4gabSGEWfF7QRI2LeCRtIN/8iKTtgdeUp9Aq3kVPK2jpMkUyQPuwsIS/7NYoWcIz0Bug+mCcpJ0RdgUQ7Wa8ovVtC2abkNb93nrCnQA0voMf5tZ/xphFi/vI0hbxqGrKAN4as7fyYs6wjBN55VZ2ltYDPkN43LIvIibWTyLmdGWSBrLtNuBa4F9lMGUeWlB/vaMiiDbwHvFOAzsqwEvic9B73JXLs+4+Mz5WZriBvbzaKPMPOMW71znXIPEGbrJWVjtPAUHNQ85ezi/w/KzBMOk+DZrjLGcb8LgnwEjI7Ltr4aWRhrfZrO/0owvxeHgU+QHpsqOn/INHNTkoMVqyjoDzRzhdIz14MLGMb8ATwGPLW/WZk6WINYvRV5CzSHNLTuz/ady6wvNqQN9q5y0pgk3HzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzjfmIdPMH3UB3BmQj+ok07/mR2Aj8iZtvyiZuvbni5huxBfnHOj7mO47jOI7jOI7jOI7jOE4GNwGBNOxGrPwacQAAAABJRU5ErkJggg==" alt="Error">
+                        </div>
+                    </div>
+                    <div class="logo w-[8.5rem]    ">
+                        <img class="w-[8.5rem] bg-white" src="/assets/logo.c12d1e17.png" alt="Error">
+                    </div>
+                    <div class="tools flex self-center   h-14 items-center  ">
+                        <div class="tools flex space-x-5 self-center   h-12 w-12 items-center   justify-center">
+                            <img class="h-6" src="data:image/png;base64,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" alt="Error">
+                        </div>
+                        <div class="tools hidden self-center   h-12 w-12 items-center   justify-center vsm:flex">
+                            <img class="h-7" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAGUklEQVR4nO2aXWwcVxXHf+fOODFN620caBHENMSRnSrEpDZ27CRuV0ADaSWeKArqWx+aSgiEAIUXJL6e2qgIHoE3HopQ4akiQUFA3Dax144/sGq1dmxSEceKihoypkmdeuceHmbW2ezasT179yOK/5Ll9bl3zvznP/ecc+9ZwwY2sIF7GZL70NLe/QZwaI3XLQBvIvLtqeH+d8rCrEIwCa+rB76M6ukd6XS9S0KVhqw+pRh79qTvX9y8cAboUNWvXxjN/Mkxr4oh0QqYmDjzAfAagCA9ThlVGElDAJRBAES6XJGpBhILUFcvGUAF7Uin075DThVFYgEm+vuvglxUuG8uuLHHJalKInkIAKBxGJi7NgxKE0AZij91lk6lOihNABOvALg3V8AHZEeALPC5tra2LW4oVRYlCTA3PHwD0bcAb6HuY4854lRRlJgEATVRGNi7cz9QugCiUSKUuzMRlryBEdVBRYBbK2CdJ8tK4TpKn1G+9c7YwLs5Y8krYLL5MxPAddCdzW0HHirVXxmxBeEpa/hHR0dHXc6Y6DRYiJb2ntdBezH69NT5zEkXPl2j9eDBB3Qh+zoq+6zoV6aHM6fBRQ4AUK35RDh59uz/sPIfAF/N0ot3I4DEO0Kt3US4I52uF+EgoItZGc3ZnQggWRufCW4JsLura9vurq5thXOrZd8ULBxSuE9gdGb83Hs5uxMBJscHLwLvAZ9obev6LIANzZgNzVjh3GrZVXgy/v3XfLvDc7wMgT6tvukCLqK8u+y0KtlF9DAqYOU2AZxUAYCW9u4fAz9BeXlqdOAHrvy6QHPbgYc8314R+DCc39o4PX3qZm7MTRKEmm6R+b59EhCFvvyHB4cC1HKLTDWKf7g9/sGhACu1yGqiGhi+BOAZUySA4zelg8DOuEX2T4iycjzYlD+zUvZHv3DgSGjtduDK2+fPTRQydiuAMoRwlKhF9tvYVtVqEFp7OE71fwG0cJqzKgDQ0rH/ECpvIDo2NZypiQZJS3v3KeCrKvLsheH+VwrH3VUB8lpkKntroUW2a9eRzUAvoJtM9u/LzXEqQK21yMwD1w4BW4CxiaGhK8vOcX7XFVpkVakGRqPyJ5xeia77ei06hPJ8YYusKtVAORwNSlH5y8G5AMu1yGIyFa0GUXfKfl7gxs3U5rMr8l1pIDGeecZrmbkUAFvCrHk4/+hZSbS2dx9XeFHgtcmRga+tNM99Dnj11RBkBMDzbIdz/2tAy2P7jyr8FEBVfnWnuauGwCod3jenRgZ6i6yqgwi9CF3AqdUpF2NHOl3vXf2oYZMJU1Y0pZgHBX0QTIOKpoAU0KBoyiApjf7eCjwCfDziwctTo/1/u9N9ynNoudUi27+7o2evtfpwTD6log1AStEU0FBAPgU0ACnmFzbjQxjlk9idULiZE6R4e4f8C9GfTY0M/G51qmVAy97OndR5M6AKkvQeHwHzQABci38CYF6RQNQGGOZBAkECtfpf1AQicnly9OzcWm9SlhUgvvfz6K2IIEyhXAICgcAi86I2AAkwzOeTN5oNvE06H/h+MNvf/2E5uBVxde2wtb37Gwp/QLmqnh69cD6zYg2uBTivAqp8P/b8vVp/eMgLgRK/z7tVDYS9APWLN/5YMrsKwP0+IEpeXOf+qp8G14KlFbBsPU+Gc8AR37ffAX7kyGfZ4Ll2uPVT298WeA7obfzkdpt65NOT1y5fvu76Pq5Qln1Aa3vPdxX9Rbn8rxHL71ILUI4cwORI/y+N4YsoJ0GvleMerlCRN9Tc2dnkhd4JkMcji/aFXnh8ZmjoUhJ/u9r2bze+nAB5AlQR7bOLHJ8ez8yu11fZBWju7Gzyst4YQuNtA8rV0A/3rVeEWMxRoLAr9L7N6r71ilCWEMiHF3onooeXP9usNtmsNqGcRGj0rHkxgb+XiB7+1JK/6MS5zdTx0nr9lV2A3LK3WfvC9Hhmdno8Mxv64QsAqDyRwOHjAKEXHlvy54XHkvqrwHd4OgPMJInPO0FumuJTcAKUXYDCUhTH8K8BRDmzboeifah80/jym+bOzmMApfi7owB7enoaF2/qOHAx9yAl/w9guPTp/TDUH673crvIceNzGDjihd6/84YS+atADijCnCivJMnYANPjmVmb1X2I/h6YK9XfBjawgXsb/wc9/NYLN6F5ogAAAABJRU5ErkJggg==" alt="Error">
+                        </div>
+                        <!-- <img class="h-6" src="Images/cart.png" alt="Error">
+                        <img class="h-7" src="Images/user.png" alt="Error"> -->
+                    </div>
+                </div>
+            </div>
+            <div class="header2 hidden text-[15px]  -2   justify-between w-full h-14 lg:flex">
+                <div class="div1 flex">
+                    <div class="logo mr-2    ">
+                        <img class="w-[8.5rem] bg-white" src="/assets/logo.c12d1e17.png" alt="Error">
+                    </div>
+                    <div class="nav   flex items-center   h-14 ">
+                        <ul class="flex space-x-2 text-sm    ">
+                            <li>Microsoft365</li>
+                            <li>Office</li>
+                            <li>Windows</li>
+                            <li>Surface</li>
+                            <li>Xbox</li>
+                            <li>Support</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="div2 flex">
+                    <div class="link flex space-x-2 h-[3.25rem] w-[7.5rem] self-center   items-center  ">
+                        <span>All Microsoft</span>
+                        <img class="h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAABmJLR0QA/wD/AP+gvaeTAAADdElEQVRoge3YTUjbYBgH8OdNP5JoY5CqMDGKHweLVBxIdzX2oEO0MsQeqojVFZQiDHPYEGRC7UWcBwviwZswd3eyWw7uMEYugj0FZAdhDHSwoax+vjtsheJSfdMmOrf3B8+xef5PjfJHAIqiKIqiKIqiKIqi/m/pdNqtaVrJXecgpWlaSTqddhf04aGhoZeiKGY4jjuXZXlb13XW4nyW0XWdlWV5m+O4c1EUM5FIZNb0QyoqKo4AAGfH5/Ptp1KpOqvDFiuVStX5fL59yMn6Ozs5XddZnufPch+SfZCiKL1Why6Uoii9V38wAIB5nj8z9UbmOxgAMMuy59FodN76+ObEYrEZjuMMM1p6MABghBDu6el5izFmrD7kJhhj1NXVtcEwzGW+fJYfnB2/37+3ublZbulF19ja2ioLBAK7N+UyfTDGGHm93uObHgwAWJKkw0Qi0W7dWcYSiUS7JEmHJJm8Xu8RxhiZWhAOh5eue21yx+PxZOLxeMySywzE4/GYx+PJkGRhGOZycHBwqaBFo6Ojz3iePyVZ5HA4LsPh8HpRlxkYGBhYcTqdFyQZWJY9Gx4enilq4dzcnFxdXf2NZCEA4GAw+FFVVa6opfCr5XV3d28jhIj2VlZWfp+dnX1c7F4AAFhdXX3Q1tb2iWQxAOCmpqbPy8vL9YXuW1tbq/b7/Xuk+1paWvbX19drCt1nSFVVpyzL70i/8fLy8uPp6eknZvcoitJTVVX1R5kwGoQQ7uzsfK9pmqv4C/MYGRl55Xa7z0kCsSx7ZqakXFcmro7L5bqIRCIr1l12jampqWFRFH+QBCMpKSRlIncEQchMTk4+te9CA8lksrmhoeELSUAAwK2trYYlhbRMZKe2tvZgfn6+ze77DKmqynV0dHwgDVtTU/N1YWHhUfbzi4uLDxsbGw9IPx8IBHZ3dnZKb+s+Qxhj1NfX98bhcBC9jqWlpSfj4+MTExMTI4IgEP1aMAxz2d/ffyfdPa+xsbEXJP0bALDT6bwgLRM8z59Go9Hnt30PEbMl5aaxtEzYxWxJyTe2lAm7mC0puYMQwsFgcNvWMmEXMyUF4JbLhF1IS8qdlAm7JJPJ5vr6+rwlRZKkuysTdslXUv6KMmEXjDEKhUIbgiCclJWVnYRCodem/xVzH2ma5rqXf4UpiqIoiqIoiqKof8VPGluW6oCCEg4AAAAASUVORK5CYII=" alt="Error">
+                    </div>
+                    <div class="tools flex self-center   h-14 items-center  ">
+                        <div class="tools flex space-x-5 self-center   h-12 w-12 items-center   justify-center">
+                            <img class="h-5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABmJLR0QA/wD/AP+gvaeTAAAE8ElEQVR4nO2dzY8URRiHn3aRMXzILhz0AiImIsJu9GKMIuhBRU9oNMZwIiInsv4FxhiJR72Kyt9g4gHFKHhRTFiJGlB3V4VsTNQ98CFZYC87HN6ZsJnM291T011vd/M+SV1qp6d+9avq6rc+ehYcx3Ecx3FuRxJrASWTAOPAbmA7sBXYBIwBqzufWQAuAnPADHAO+BY4C7Qj620ECWL4UWAeMTEkzQOfArtofkcthBZwEJgl3HQtzQIHgJXRalMz9gF/U7zxvWkOeD1SnWrBFuAE5Rvfm74G7o9Qv0qzF3l4xja/m64Ar5VeywqSAO+T36jryF3yNtJo25Ao6M5OGuvk7e185gRwY4DvP8xt9JAeQSKTPMacRh6c6wLKGQXe7HxHnrI+6WhrNAn5zJ8Cni2w3OeBMznK/ZiG3wlZw84CcIhyeuIIMAlcy9BwuISyK8GrpFf8V2SmWzY7gN9TdCwBL0fQEZUHgMvolf4OeZDGYj3wfYqeSzQoRE2Ab0g3f5WBrlWkN8JXBppKYR/pw07Mnt/LetKHo9rPEVroywsLxBnzsxhHfzBfQOYZteUgeu86ZKirl0l0nW8Y6hqKBH1Vc4pqTXpG0OcJ09R0bvA0eq8qcpJVFHvQ9e401BXMUfpX5rSlqAym0GfItSJB38k6YKgrC+2Z9R81G4Ym6F+R64QtrMViFH0VdYd20R1RpA3GbiX/FLIGX1UuAz8of9PqVMkG0OL7k1FVhKFpVOcsVWyAh5T8n6OqCOMXJX+rdkEVG+A+JX8mqoowppX8zdoFVWyAu5X8+agqwtA0anWqJIv0jyTqcCanRX/tN7QLqngH1CpmHpYqNsCCkr8mqoow1ir5V7ULqtgAl5T8e6KqCEPT+L92QRUb4IKS/2BUFWFo4aZWp0o2wKySPxFVRRjjSr4WnlayAbQVz2eiqghD03g2qooheRg9lBs11JXFGPpiXBW2TwfiL5qzHP0vNQytP6Q5GzJHLEWF8gj6Ft9zhro0XkTX+6ShrqE4Rf8KnaFam/IrgJ9o2KY8yBlLrVdNGurq5S10nfsNdQ1Ngj6uXiNlmy8iE+gHs85T84NZIFt5S/Sv4G/I8UArNiBDjNb7X7GTVizaEZU2dodzV5N+OPe4gabSGEWfF7QRI2LeCRtIN/8iKTtgdeUp9Aq3kVPK2jpMkUyQPuwsIS/7NYoWcIz0Bug+mCcpJ0RdgUQ7Wa8ovVtC2abkNb93nrCnQA0voMf5tZ/xphFi/vI0hbxqGrKAN4as7fyYs6wjBN55VZ2ltYDPkN43LIvIibWTyLmdGWSBrLtNuBa4F9lMGUeWlB/vaMiiDbwHvFOAzsqwEvic9B73JXLs+4+Mz5WZriBvbzaKPMPOMW71znXIPEGbrJWVjtPAUHNQ85ezi/w/KzBMOk+DZrjLGcb8LgnwEjI7Ltr4aWRhrfZrO/0owvxeHgU+QHpsqOn/INHNTkoMVqyjoDzRzhdIz14MLGMb8ATwGPLW/WZk6WINYvRV5CzSHNLTuz/ady6wvNqQN9q5y0pgk3HzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzDXHzjfmIdPMH3UB3BmQj+ok07/mR2Aj8iZtvyiZuvbni5huxBfnHOj7mO47jOI7jOI7jOI7jOE4GNwGBNOxGrPwacQAAAABJRU5ErkJggg==" alt="Error">
+                        </div>
+                        <div class="tools hidden self-center   h-12 w-12 items-center   justify-center vsm:flex">
+                            <img class="h-6" src="data:image/png;base64,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" alt="Error">
+                        </div>
+                        <div class="tools hidden self-center   h-12 w-12 items-center   justify-center vsm:flex">
+                            <img class="h-7" src="data:image/png;base64,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" alt="Error">
+                        </div>
+                        <!-- <img class="h-5 " src="Images/search.png" alt="Error">
+                        <img class="h-6" src="Images/cart.png" alt="Error">
+                        <img class="h-7" src="Images/user.png" alt="Error"> -->
+                    </div>
+                </div>
+            </div>
+            <div
+                class="banner1 bg-[url('Images/banner1.png')] bg-center bg-cover h h-[24.25rem] pl-16 pt-7     w-full">
+                <div class="textdiv hidden flex-col justify-between h-48 w-[440px]     md:flex">
+                    <button class="btn1 h-[31px] w-[58px] font-semibold bg-[#FFB900]">New</button>
+                    <h1 class="div font-semibold text-2xl pb-2">Surface Pro 8</h1>
+                    <p class="div text-[15px] leading-5 pb-6">Do more with a large 13-inch touchscreens,faster
+                        connnections and extra speed. Now available with Windows 11.</p>
+                    <button class="flex bg-black text-white h-10 w-[139px] justify-center items-center">
+                        <h1>Learn more</h1>
+                        <div class="h-7 flex items-center ml-1">
+                            <img class="img h-4 bg-black " src="/assets/next.442aa421.png" alt="">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="bannertext bg-[#E6E6E6] min-h-[320px] w-full flex justify-center items-center     md:hidden">
+                <div
+                    class="textdiv flex flex-col text-center items-center justify-between h-[164px] w-[87%]    ">
+                    <button class="btn1 h-[31px] w-[58px] font-semibold bg-[#FFB900]">New</button>
+                    <h1 class="div font-semibold text-2xl">Surface Pro 8</h1>
+                    <p class="div text-[15px] leading-5 pb-2">Do more with a large 13-inch touchscreens,faster
+                        connnections and extra speed. Now available with Windows 11.</p>
+                    <button class="flex bg-black text-white h-10 w-[139px] justify-center items-center">
+                        <h1>Learn more</h1>
+                        <div class="h-7 flex items-center ml-1">
+                            <img class="img h-4 bg-black " src="/assets/next.442aa421.png" alt="">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="apps h-auto w-full   flex flex-col  justify-center items-start pl-12 mb-12   mt-12 md:flex-row md:w-full md:pl-32 md:pr-32 md:h-[11rem] md:items-center">
+                <div class="box1 h-12 w-full flex flex-row   md:h-32 md:flex-col justify-center">
+                    <div class="img flex items-center justify-center">
+                        <img class="h-5 md:h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoAgMAAADxkFD+AAAADFBMVEUAAAAEBwcEBwcEBwfFLVwKAAAAA3RSTlMA8OE5x/eNAAAAAW9yTlQBz6J3mgAAAClJREFUGNNjYMAK+P////9FHkh8GBpM1tDQ0AhVIBGA3T/ICoaa37ACALq3BzBHsg7nAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <h1
+                        class="height h-10 w-full px-3 text-center font-medium flex justify-start self-center items-center mt-1 leading-5 md:h-10 md:w-full md:justify-center">
+                        Choose your Microsoft 365</h1>
+                </div>
+                <div class="box2 h-12 w-full flex flex-row   md:h-32 md:flex-col justify-center">
+                    <div class="img flex items-center justify-center">
+                        <img class="h-5 md:h-10" src="data:image/webp;base64,UklGRvgBAABXRUJQVlA4WAoAAAAQAAAAJwAAJwAAQUxQSJwBAAANkENt26FHT6yJbdu216zSrW12W9q2bdu2q61iD75ZxcbM95+87VYRwcBt20a6aWSnv8D/nstasLW1txVsBXs7wVawdbAVbK3Ki2o4CiY62mlNOdjCwPVPbGhsrK4XG5qOxd3Q43K2qbq2QWwQq+v/NTU1/2lqbmr+Z6DRwmE/+Q6QWUVZQXHXF47hai0oFLwDx7ArtI3GbOYIwmESWXjCf/GEpg1ZykHjLfQYFx4kWjZwJOEK0fKe170vaRolXPvDvhAtTfPfV2hYJa0nWtaMOag7uFzcI1oefSp9UqtZ2n6QGNbxozJ75zYAwx4RLa+AbRW3G+HqtZWEELEVODVm7S4U4wmJHDwDOnfUXmTDlUaa7vgB4HjJqj3DLtAtQNu+2lNOoSuZIjMmMdY9JMsmXYFDM5dMWj0hItLdxWVQ/WNMVjSlyKyds8ydojVSeev6rb31THV2cXVzcYmMiIiNjPB21ZroEVUmKXLXwdTIqKjoCDwFgD6mN+qUzSDuzv4J4eFxUT1re2SFKZJqiiFcf3QNMZGpktLFN9MCVlA4IDYAAABwAwCdASooACgAPtlqrlKoJaQio4gBABsJaQAAHLLIPrHSnAAA/vJxfhjS0pE7SYlCvoQAAAA=" alt="">
+                    </div>
+                    <h1
+                        class="height h-10 w-full px-3 text-center font-medium flex justify-start self-center items-center mt-1 leading-5 md:h-10 md:w-full md:justify-center">
+                        Explore
+                        Surface devices</h1>
+                </div>
+                <div class="box3 h-12 w-full flex flex-row   md:h-32 md:flex-col justify-center">
+                    <div class="img flex items-center justify-center">
+                        <img class="h-5 md:h-10" src="data:image/webp;base64,UklGRkQCAABXRUJQVlA4WAoAAAAQAAAAJwAAJwAAQUxQSPMBAAABkHNb27G56q+YY9szZWzbtm1VTkrbtlNzkM62P1ax8RlX8eB9JiImAPoJA7dcd3lIj/v61oEJMJ604h21365IMlWnaMimZ1FZ5Mn6QUV1TIkNep33kJ5zPeqj+pufOdMcphPbNtaxGtM2USO2nK9m1DJTa+ZrlscqapwmyUsFJvIvkeTpGrJFlDq6WOtoo3SRpOybjH9GWRn+m/JvZcJxqsNj9EaFqD4OoIlH418XvU5/NTxNgG3UnAGL0zS4FQk2jX2wvEfDljAgpHoYZy32vio0YCOV/9vDYJt/Cm6sUK2BurBQhZWqCofidgNVR5ero6r+DYXDI/N3hHLIT/LnEAXaeWUeyndAOdVHkr6pCmyRMSpxpytmhikNz1SkOiTRf5J5kM8NUxmeK8MsyT+78LihbHqUmtHpsvoPBXu5MBHSUUFqB0dJME4o30jyWUNJ1z+0+KerpMETkhv7hcglEEvdtOwuFbCYDPWLt/FbjhBzgwZvxAg532iLxxZehLiHRvcIuMgtQNPgHGEkDY8U5gSbAjjQCUCq3ZQ9FUCnAwCQHQ9gLY2vBRCfLYiZH8x9yIT2NFbjNL2d1bFTb2l1LNWLOWXuVIweMP+LmS/zYb3kqMea52gJjDbZagvphGxbm8B4woDNlc7/5H9n5aYBCdAHAFZQOCAqAAAAMAMAnQEqKAAoAD7ZbLBSqCYkoqOIAQAbCWkAABuBvT4OAAD+8uMAAAAA" alt="">
+                    </div>
+                    <h1
+                        class="height self-center h-10 w-full px-3 text-center font-medium flex justify-start items-center mt-1 leading-5 md:h-10 md:w-full md:justify-center">
+                        Buy
+                        Xbox
+                        games</h1>
+                </div>
+                <div class="box4 h-12 w-full flex flex-row   md:h-32 md:flex-col justify-center">
+                    <div class="img flex items-center justify-center">
+                        <img class="h-5 md:h-10" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoAgMAAADxkFD+AAAADFBMVEUAAAAEBwcEBwcEBwfFLVwKAAAAA3RSTlMA8OE5x/eNAAAAAW9yTlQBz6J3mgAAAClJREFUGNNjYMAK+P////9FHkh8GBpM1tDQ0AhVIBGA3T/ICoaa37ACALq3BzBHsg7nAAAAAElFTkSuQmCC" alt="">
+                    </div>
+                    <h1
+                        class="height h-10 self-center w-full px-3 text-center font-medium flex justify-start items-center mt-1 leading-5 md:h-10 md:w-full md:justify-center">
+                        Get
+                        Windows 11</h1>
+                </div>
+            </div>
+            <div
+                class="services flex h-[462px] pt-4 w-full     sm:h-auto flex-wrap xsm:h-auto lg:flex-nowrap">
+                <div
+                    class="card1 flex flex-col items-center h-[362px] pl-3 pr-3 pt-12 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                    <div class="imgdiv w-[220px] pb-[39px]">
+                        <img class="w-[220px]" src="data:image/webp;base64,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" alt="">
+                    </div>
+                    <div class="textdiv pr-[10px]">
+                        <h1 class="h font-semibold text-xl h-[27px]">Surface laptop Go</h1>
+                        <p class="h-[80px] mt-[3px] text-[15px] leading-5">Make the most of every day with the sleek
+                            style
+                            and performance of our lightest Surface laptop.</p>
+                        <button class="flex text-blue-600 h-10 justify-center items-center">
+                            <h1>Shop now</h1>
+                            <div class="h-7 flex items-center ml-1">
+                                <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="card2 flex flex-col items-center h-[362px] pl-3 pr-3 pt-12 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                    <div class="imgdiv w-[220px] pb-[39px]">
+                        <img class="w-[220px]" src="data:image/webp;base64,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" alt="">
+                    </div>
+                    <div class="textdiv pr-[10px]">
+                        <h1 class="h font-semibold text-xl h-[27px]">Surface laptop 4</h1>
+                        <p class="h-[80px] mt-[3px] text-[15px] leading-5">Do it all with a perfect balance of sleek,
+                            ultra-thin design, multitasking speed and improved performance.</p>
+                        <button class="flex text-blue-600 h-10 justify-center items-center">
+                            <h1>Shop now</h1>
+                            <div class="h-7 flex items-center ml-1">
+                                <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="card3 flex flex-col items-center h-[446px] pl-3 pr-3 pt-12 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                    <div class="imgdiv w-[220px] pb-[39px]">
+                        <img class="w-[220px]" src="/assets/game.71504c7d.jfif" alt="">
+                    </div>
+                    <div class="textdiv pr-[10px]">
+                        <h1 class="h font-semibold text-xl h-[51px]">Xbox Game Pass Ultimate</h1>
+                        <p class="h-[140px] mt-[3px] text-[15px] leading-5 xsm:h-auto">Get your first 8 months of
+                            membership for ₹
+                            699.
+                            Play on the devices you own. Includes EA Play. Offer available to new subscribers only and
+                            cannot be combined with any other offers.</p>
+                        <button class="flex text-blue-600 h-10 justify-center items-center">
+                            <h1>Join now</h1>
+                            <div class="h-7 flex items-center ml-1">
+                                <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+                <div
+                    class="card4 flex flex-col items-center h-[362px] pl-3 pr-3 pt-12 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                    <div class="imgdiv w-[220px] pb-[39px]">
+                        <img class="w-[220px]" src="/assets/microsoft.b944fd2b.webp" alt="">
+                    </div>
+                    <div class="textdiv pr-[10px]">
+                        <h1 class="h font-semibold text-xl h-[27px]">Microsoft Edge</h1>
+                        <p class="h-[80px] mt-[3px] text-[15px] leading-5">World-class performance with more privacy,
+                            more
+                            productivity and more value while you browse.</p>
+                        <button class="flex text-blue-600 h-10 justify-center items-center">
+                            <h1>Download now</h1>
+                            <div class="h-7 flex items-center ml-1">
+                                <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="banner2 pt-16 bg-[url('Images/banner3.jfif')] mt-12 bg-center bg-cover h-[361px] pl-16     w-full">
+                <div class="textdiv hidden flex-col justify-between h-48 w-[440px]     md:flex">
+                    <button class="btn1 invisible h-[31px] w-[58px] font-semibold bg-[#FFB900]">
+                        New</button>
+                    <h1 class="div font-semibold text-2xl pb-2">Microsoft OneDrive</h1>
+                    <p class="div text-[15px] leading-5 pb-6">Save your files and photos to OneDrive and access them
+                        from
+                        any device, anywhere</p>
+                    <button class="flex bg-black text-white h-10 w-[139px] justify-center items-center">
+                        <h1>Learn more</h1>
+                        <div class="h-7 flex items-center ml-1">
+                            <img class="img h-4 bg-black " src="/assets/next.442aa421.png" alt="">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div
+                class="bannertext2 bg-[#E6E6E6] min-h-[320px] w-full flex justify-center items-center     md:hidden">
+                <div
+                    class="textdiv flex flex-col text-center items-center justify-between h-[114px] w-[89%]    ">
+                    <h1 class="div font-semibold text-2xl">Microsoft One Drive</h1>
+                    <p class="div text-[15px] leading-5 pb-2">Save ypur files and photos to Onedrive and access them
+                        from anydevice, anywhere</p>
+                    <button class="flex bg-black text-white h-10 w-[139px] justify-center items-center">
+                        <h1>Learn more</h1>
+                        <div class="h-7 flex items-center ml-1">
+                            <img class="img h-4 bg-black " src="/assets/next.442aa421.png" alt="">
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="buisness mt-8 h-[450px] w-full     xsm:h-auto sm:h-auto">
+                <div class="text h-16 flex items-center font-semibold text-2xl">For Buisness</div>
+                <div
+                    class="services flex h-[388px] w-full     sm:h-auto flex-wrap xsm:h-auto lg:flex-nowrap">
+                    <div
+                        class="card1 flex flex-col items-center h-[386px] pl-3 pr-3 w-[22.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                        <div class="imgdiv w-[220px] pb-[10px]">
+                            <img class="w-[220px]" src="/assets/img1.f89b5e48.png" alt="">
+                        </div>
+                        <button class="btn1 h-[26px] w-[57px] font-normal text-[13px]
+                     bg-[#FFD800]">New</button>
+                        <div class="textdiv pt-[6px] pr-[10px] xsm:h-auto">
+                            <h1 class="h font-semibold text-xl leading-6 h-[51px]">Surface Pro 8 for Business</h1>
+                            <p class="h-[120px] mt-[3px] text-[15px] leading-5 xsm:h-auto">Get unprecedented levels of
+                                performance
+                                and
+                                versatility on a 13-inch screen. Discover the newest Surface for Business devices now
+                                available. Available with Windows 11.</p>
+                            <button class="flex text-blue-600 h-10 justify-center items-center">
+                                <h1>Learn more</h1>
+                                <div class="h-7 flex items-center ml-1">
+                                    <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="card2 h-[386px] flex flex-col items-center pl-3 pr-3 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                        <div class="imgdiv w-[220px] pb-[39px]">
+                            <img class="w-[220px]" src="/assets/img2.5446ce29.png" alt="">
+                        </div>
+                        <div class="textdiv pr-[10px] xsm:h-auto">
+                            <h1 class="h font-semibold text-xl leading-6 h-[51px]">Great solutions for your school</h1>
+                            <p class="h-[120px] mt-[3px] text-[15px] leading-5 xsm:h-auto">Accelerate the power of
+                                learning with
+                                inclusive, accessible and affordable Windows 11 and Windows 11 SE devices for your K-12
+                                school district and students.</p>
+                            <button class="flex text-blue-600 h-10 justify-center items-center">
+                                <h1>Learn more</h1>
+                                <div class="h-7 flex items-center ml-1">
+                                    <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="card3 h-[386px] flex flex-col items-center pl-3 pr-3 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                        <div class="imgdiv w-[220px] pb-[39px]">
+                            <img class="w-[220px]" src="/assets/img3.d36578b1.png" alt="">
+                        </div>
+                        <div class="textdiv pr-[10px] xsm:h-auto">
+                            <h1 class="h font-semibold text-xl leading-6 h-[51px]">Get Microsoft Teams for free</h1>
+                            <p class="h-[60px] mt-[3px] text-[15px] leading-5 xsm:h-auto">Online meetings, chat and
+                                shared cloud
+                                storage – all in one place.</p>
+                            <button class="flex text-blue-600 h-10 justify-center items-center">
+                                <h1>Sign up for free</h1>
+                                <div class="h-7 flex items-center ml-1">
+                                    <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div
+                        class="card4 h-[386px] flex flex-col items-center pl-3 pr-3 w-[25.20%]     xsm:w-full xsm:h-auto sm:h-auto sm:w-1/2 lg:w-[25.20%]">
+                        <div class="imgdiv w-[220px] pb-[39px]">
+                            <img class="w-[220px]" src="/assets/img4.6f6ca524.png" alt="">
+                        </div>
+                        <div class="textdiv pr-[10px] xsm:h-auto">
+                            <h1 class="h font-semibold text-xl leading-6 h-[51px]">Thrive in a hybrid world</h1>
+                            <p class="h-[80px] mt-[3px] text-[15px] leading-5 xsm:h-auto">Discover tools, resources and
+                                strategies
+                                to
+                                help your employees succeed in the new world of flexible work.</p>
+                            <button class="flex text-blue-600 h-10 justify-center items-center">
+                                <h1>Learn more</h1>
+                                <div class="h-7 flex items-center ml-1">
+                                    <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner3 bg-[#E6E6E6] flex justify-center items-center
+        flex-col mt-6 pl-5 pr-5     h-auto w-full">
+                <h1 class="leading-10 h-auto text-[1.62rem] text-center font-semibold md:text-[34px]">Microsoft’s response to COVID-19</h1>
+                <h2 class="m mt-2 h-auto text-center">Read how we’re responding to the COVID-19 outbreak, and get resources to help.
+                </h2>
+                <button class="flex font-medium
+             h-[42px] w-[102px] justify-center items-center">
+                    <h1>Learn more</h1>
+                    <div class="h-7 flex items-center ml-1">
+                        <img class="img h-3 " src="/assets/bluearrow.e60d78ff.png" alt="">
+                    </div>
+                </button>
+            </div>
+            <div class="socialmedia font-normal space-x-4 h-32   flex items-center   ">
+                <h1>Follow Microsoft</h1>
+                <img class="h-[30px]" src="/assets/facebook.83869609.png" alt="">
+                <img class="h-[30px]" src="/assets/twitter.458e9be5.png" alt="">
+                <img class="h-[30px]" src="/assets/youtube.73d06142.png" alt="">
+            </div>
+            <div class="footer bg-[#E6E6E6] h-auto w-full    ">
+                <div class="div1 text-[10px] flex-wrap flex w-full   justify-between   h-auto lg:h-[324px]">
+                    <div class="text1 flex flex-col     w-full sm:w-[30%] lg:w-[15%]">
+                        <h1 class="font-medium text-[15px] flex items-end h-[60px]">What's new</h1>
+                        <div class="div flex flex-col justify-evenly h-40 text-[11px]">
+                            <p>Microsoft 365</p>
+                            <p>Surface Pro X</p>
+                            <p>Surface Pro 7</p>
+                            <p>Surface Laptop 3</p>
+                            <p>Windows 11 apps</p>
+                        </div>
+                    </div>
+                    <div class="text2   flex flex-col   w-full sm:w-[30%] lg:w-[15%]">
+                        <h1 class="font-medium text-[15px] flex items-end h-[60px]">Microsoft Store</h1>
+                        <div class="div flex flex-col justify-evenly h-40 text-[11px]">
+                            <p>Account profile</p>
+                            <p>Download Center</p>
+                            <p>Microsoft Store Support</p>
+                            <p>Returns</p>
+                            <p>Order tracking</p>
+                        </div>
+                    </div>
+                    <div class="text3   flex flex-col   w-full sm:w-[30%] lg:w-[15%]">
+                        <h1 class="font-medium text-[15px] flex items-end h-[60px]">Education</h1>
+                        <div class="div flex flex-col justify-evenly h-40 text-[11px]">
+                            <p>Microsoft in education</p>
+                            <p>Office for students</p>
+                            <p>Office 365 for schools</p>
+                            <p>Microsoft Azure in education</p>
+                        </div>
+                    </div>
+                    <div class="text4   flex flex-col   w-full sm:w-[30%] lg:w-[15%]">
+                        <h1 class="font-medium text-[15px] flex items-end h-[60px]">Enterprise</h1>
+                        <div class="div flex flex-col justify-evenly h-64 text-[11px]">
+                            <p>Azure</p>
+                            <p>AppSource</p>
+                            <p>Automotive</p>
+                            <p>Government</p>
+                            <p>Healthcare</p>
+                            <p>Manufacturing</p>
+                            <p>Financial services</p>
+                            <p>Retail</p>
+                        </div>
+                    </div>
+                    <div class="text5   flex flex-col   w-full sm:w-[30%] lg:w-[15%]">
+                        <h1 class="font-medium text-[15px] flex items-end h-[60px]">Developer</h1>
+                        <div class="div flex flex-col justify-evenly h-40 text-[11px]">
+                            <p>Microsoft Visual Studio</p>
+                            <p>Developer Center</p>
+                            <p>Channel 9</p>
+                            <p>Microsoft 365 Dev Center</p>
+                            <p>Microsoft 365 Developer Program</p>
+                        </div>
+                    </div>
+                    <div class="text6   flex flex-col   w-full sm:w-[30%] lg:w-[15%]">
+                        <h1 class="font-medium text-[15px] flex items-end h-[60px]">Company</h1>
+                        <div class="div flex flex-col justify-evenly h-48 text-[11px]">
+                            <p>Careers</p>
+                            <p>About Microsoft</p>
+                            <p>Company news</p>
+                            <p>Privacy at Microsoft</p>
+                            <p>Investors</p>
+                            <p>Security</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div2 h-auto w-full flex flex-col justify-between items-start     md:flex-row">
+                    <div class="left">
+                        <button class="flex font-medium h-[42px] w-[120px] items-center">
+                            <div class="h-7 flex items-center ml-1">
+                                <img class="img h-9 w-9 " src="/assets/earth.2149fb94.png" alt="">
+                            </div>
+                            <h1 class="text-[11px] font-normal">English (India)</h1>
+                        </button>
+                    </div>
+                    <div class="right flex flex-row space-x-reverse space-x-4 flex-wrap font-normal text-[11px] md:self-center">
+                        <!-- <div class="div1 w-full justify-between flex flex-row"> -->
+                            <p class="mb-2 mr-4">Contact Microsoft</p>
+                            <p class="mb-2">Privacy</p>
+                            <p class="mb-2">Terms of use</p>
+                        <!-- </div>
+                        <div class="div2 space-x-3 w-full justify-between flex flex-row"> -->
+                            <p class="mb-2">Trademarks</p>
+                            <p class="mb-2">About our ads</p>
+                            <p class="mb-2">&#169 Microsoft 2022</p>
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
