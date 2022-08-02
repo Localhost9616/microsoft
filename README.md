@@ -4,3 +4,4 @@ Welcome to localhost9616 github server. This current repository is fully dedicat
 
 Technology Used- Html, Tailwind Css and JavaScript.. 
 
+Note - Run using "npm run start".
